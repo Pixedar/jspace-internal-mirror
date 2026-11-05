@@ -17,3 +17,5 @@ A life is a run within a condition. Pair by run and life index when comparisons 
 Run `python experiments/check_evidence.py` from the repository root for the headline checks. The original analyses and full experiment drivers are in [experiments](experiments/). The same numerical subset is mirrored in the [Hugging Face dataset](https://huggingface.co/datasets/Pixedar/jspace-internal-mirror-evidence).
 
 The companion dataset DOI is [10.5281/zenodo.23989888](https://doi.org/10.5281/zenodo.23989888). It was reserved for this dataset. The public DOI link becomes usable after the deposit is published.
+
+The later 14B reversal batch is in [reversal_14b.csv](evidence/reversal_14b.csv), with its [signed record](followups/reversal-record.json). Its columns follow the decision-round table. The first signed archive and reserved DOI refer to the initial subset.

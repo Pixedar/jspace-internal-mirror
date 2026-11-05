@@ -18,6 +18,10 @@ That difference opens up a deeper question. Qwen can learn to predict that the h
 
 ![Writing, choice and forecast measurements from the Qwen3 experiments](figures/selftag.png)
 
+## When the rule changed
+
+In a 40-round follow-up, a hidden activation intervention made the own-workspace option stronger. At 14B, choices adapted when Qwen saw its fresh forecast. At 8B, forecasts could follow the change while the written account still described the old rule. [Read the dated follow-up](followups/REVERSAL.md).
+
 ## Two routes into a model's next step
 
 The [original J-space project](https://github.com/Pixedar/jspace-strange-loop) builds a small reader alongside frozen Qwen. The reader learns what its own selection tends to emphasize and feeds that prediction into its next selection. In Internal Mirror, Qwen interprets words decoded from its own activity and can choose interventions through an instrument. The first route embeds a learned prediction in a selection rule. The second lets a model interpret and act on a description in language. Both show how much depends on where the description enters the computation.

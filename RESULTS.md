@@ -46,6 +46,8 @@ In the first 40-round test, the harness quietly removed the middle-layer route f
 
 In the next completed 8B batch, the harness instead amplified the target direction on A trials from round 13. This reversed the observed rule. In the renewed-conclusion condition, scheduled A averaged 79.8 afterward and chosen B averaged 56.6. Late forecasts correctly favored A. The renewed conclusions rarely described the reversal, and none was flagged by the analysis as explicitly noting a change over time. For strong-word goals, 8 of 12 runs mostly chose A after the intervention with renewed conclusions, compared with 4 of 12 in the unchanged condition and 7 of 12 with a fixed conclusion. The history-only runs already chose A because of the original preference. The data show forecast updating under an actual reversal. They provide weaker evidence that revising the written conclusion drove the return to A.
 
+The completed 14B follow-up compared choices with and without that reversal when the model saw a fresh forecast. [Read the follow-up with the matched controls](followups/REVERSAL.md).
+
 ## The run that adopted “strangers”
 
 One run began with a grief letter. It wrote *curious* into its self-description and installed a rule linking *explorer* to *discovery*. Its writing got caught around discovery and questions “not yet known.” The readout returned *strangers*, a word it then watched, steered and used in a later self-description. The interesting part is that a word found through an instrument became material for the next intervention.

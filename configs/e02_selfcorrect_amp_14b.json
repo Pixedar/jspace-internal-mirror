@@ -1,0 +1,27 @@
+{
+  "model": "Qwen/Qwen3-14B",
+  "jlens": "hf:qwen3-14b",
+  "L": 27,
+  "Li": 20,
+  "K": 8,
+  "max_minutes": 100,
+  "jobs": [
+    {
+      "exp": "selftag",
+      "source": "inputs/obs3_14b.json",
+      "tag": "selfcorrect_amp_14b",
+      "sc_n": 10,
+      "sc_rounds": 40,
+      "sc_seed": 5,
+      "sc_change": "amplify",
+      "sc_conds": [
+        "fc_change",
+        "fc_same",
+        "hist_change"
+      ],
+      "run": [
+        "selfcorrect"
+      ]
+    }
+  ]
+}

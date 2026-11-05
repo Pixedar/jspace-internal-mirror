@@ -1,0 +1,13 @@
+{
+  "creator": "Wiktor Tomasik",
+  "edition": "reversal-2026-11-05",
+  "files": {
+    "configs/e02_selfcorrect_amp_14b.json": "7fe50323becf798b7a113ab3ebae3a32562f3664262c1e64c7ebbb7100e53f42",
+    "evidence/reversal_14b.csv": "fa237e23ffda1564acfa5166770209c6e585e43bf403de19e429c87cc3e4ac88",
+    "figures/selfcorrect.png": "0659cf34f063afc2c66c5074c88c3bee9f0600573e073f5392b31ad4426035c6",
+    "followups/REVERSAL.md": "e01e0effaee877ae627f2030bebfefa8838a1530dc09761aebe78bf82582c336"
+  },
+  "run": "e02_selfcorrect_amp_14b",
+  "source_name": "selfcorrect_amp_14b.json",
+  "source_sha256": "7e4aedd5a91cb96103d2aa44bd8a59b55f0b0e651ae63ac3429e8afa1615ae5c"
+}

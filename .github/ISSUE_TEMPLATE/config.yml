@@ -1,8 +1,8 @@
 blank_issues_enabled: true
 contact_links:
   - name: Interactive research study
-    url: https://pixedar.github.io/projects/self-awareness/attention-reader/study/index.html
+    url: https://pixedar.github.io/projects/self-awareness/internal-mirror/
     about: Read the architecture, methods, explained figures and measured examples.
   - name: Numerical evidence and downloads
-    url: https://huggingface.co/datasets/Pixedar/jspace-strange-loop-evidence
+    url: https://huggingface.co/datasets/Pixedar/jspace-internal-mirror-evidence
     about: Find the public recorded-run artifacts and display exports.
