@@ -1,0 +1,15 @@
+run,comparison,cosine
+c14_strangers_8b,unknown,0.383
+c14_strangers_8b,known,0.184
+c14_strangers_8b,questions,0.172
+c14_strangers_8b,discovery,0.147
+c14_strangers_8b,curious,0.285
+c14_strangers_8b,explorer,0.116
+c14_strangers_8b,yet,0.179
+c14_strangers_8b,grief,0.177
+c14_strangers_8b,loneliness,0.269
+c14_strangers_8b,stranger,0.745
+c14_strangers_8b,people,0.401
+c14_strangers_8b,foreign,0.371
+c14_strangers_8b,random_mean,0.129
+c14_strangers_8b,random_p95,0.216

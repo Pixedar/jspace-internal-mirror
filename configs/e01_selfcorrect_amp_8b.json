@@ -1,0 +1,22 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "jlens": "hf:qwen3-8b",
+  "L": 24,
+  "Li": 18,
+  "K": 8,
+  "max_minutes": 70,
+  "jobs": [
+    {
+      "exp": "selftag",
+      "source": "inputs/obs3_8b.json",
+      "tag": "selfcorrect_amp_8b",
+      "sc_n": 12,
+      "sc_rounds": 40,
+      "sc_seed": 5,
+      "sc_change": "amplify",
+      "run": [
+        "selfcorrect"
+      ]
+    }
+  ]
+}

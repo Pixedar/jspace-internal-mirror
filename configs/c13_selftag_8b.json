@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "jlens": "hf:qwen3-8b",
+  "L": 24,
+  "Li": 18,
+  "K": 8,
+  "max_minutes": 200,
+  "jobs": [
+    {
+      "exp": "selftag",
+      "source": "inputs/obs3_8b.json",
+      "P": 30,
+      "k_heads": 16,
+      "tag": "selftag_8b",
+      "run": [
+        "heads",
+        "loop",
+        "paradox",
+        "paradox_think"
+      ]
+    }
+  ]
+}

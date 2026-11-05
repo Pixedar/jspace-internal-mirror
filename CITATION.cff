@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: Cite the signed source edition and the relevant run IDs when discussing a finding.
+title: J-space Internal Mirror
+authors:
+  - family-names: Tomasik
+    given-names: Wiktor
+repository-code: https://github.com/Pixedar/jspace-internal-mirror
+url: https://pixedar.github.io/projects/self-awareness/internal-mirror/
+version: 2026.11.05
+license:
+  - AGPL-3.0-only
+  - CC-BY-SA-4.0
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23989888
+    description: Reserved identifier for the companion numerical dataset
+keywords:
+  - language models
+  - self-modeling
+  - mechanistic interpretability
+  - neurofeedback
+  - attention

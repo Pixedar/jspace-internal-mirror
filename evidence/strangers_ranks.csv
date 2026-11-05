@@ -1,0 +1,8 @@
+run,condition,candidate_rank,output_token_rank
+c14_strangers_8b,as_recorded,61,611
+c14_strangers_8b,no_bias,1792,54532
+c14_strangers_8b,no_units,345,23977
+c14_strangers_8b,neither,1661,65956
+c14_strangers_8b,no_steer,157,1803
+c14_strangers_8b,shuffled_reply,64,
+c14_strangers_8b,reply_in_neutral_context,2038,

@@ -1,0 +1,258 @@
+{
+  "c13_selftag_8b": {
+    "config": {
+      "K": 8,
+      "L": 24,
+      "Li": 18,
+      "jlens": "hf:qwen3-8b",
+      "jobs": [
+        {
+          "P": 30,
+          "exp": "selftag",
+          "k_heads": 16,
+          "run": [
+            "heads",
+            "loop",
+            "paradox",
+            "paradox_think"
+          ],
+          "source": "inputs/obs3_8b.json",
+          "tag": "selftag_8b"
+        }
+      ],
+      "max_minutes": 200,
+      "model": "Qwen/Qwen3-8B"
+    },
+    "file": "selftag_8b.json",
+    "sha256": "66ae8fedeaf47f792d6d4759ddd114ad064230fed5cd96d2a267729bd615bf91"
+  },
+  "c14_strangers_8b": {
+    "config": {
+      "K": 8,
+      "L": 24,
+      "Li": 18,
+      "jlens": "hf:qwen3-8b",
+      "jobs": [
+        {
+          "exp": "selftag",
+          "integrated_source": "inputs/integrated_8b.json",
+          "run": [
+            "strangers"
+          ],
+          "source": "inputs/obs3_8b.json",
+          "tag": "strangers_8b"
+        }
+      ],
+      "max_minutes": 60,
+      "model": "Qwen/Qwen3-8B"
+    },
+    "file": "strangers_8b.json",
+    "sha256": "0ca8621d79a81fd016a0e570ee3280031ce3e883e444f5dd6ef8403fe8010bb5"
+  },
+  "c16_paradox_8b": {
+    "config": {
+      "K": 8,
+      "L": 24,
+      "Li": 18,
+      "jlens": "hf:qwen3-8b",
+      "jobs": [
+        {
+          "P": 30,
+          "exp": "selftag",
+          "run": [
+            "paradox",
+            "paradox_frames",
+            "paradox_think",
+            "paradox_frames_think"
+          ],
+          "source": "inputs/obs3_8b.json",
+          "tag": "paradox_8b"
+        }
+      ],
+      "max_minutes": 90,
+      "model": "Qwen/Qwen3-8B"
+    },
+    "file": "paradox_8b.json",
+    "sha256": "46f7cf7e5d2e7c271e9e3713057e5476e47cca6939b3149a1f99c853ab681ad4"
+  },
+  "c17_operative_8b": {
+    "config": {
+      "K": 8,
+      "L": 24,
+      "Li": 18,
+      "jlens": "hf:qwen3-8b",
+      "jobs": [
+        {
+          "P": 30,
+          "exp": "selftag",
+          "run": [
+            "paradox_operative"
+          ],
+          "source": "inputs/obs3_8b.json",
+          "tag": "operative_8b"
+        }
+      ],
+      "max_minutes": 30,
+      "model": "Qwen/Qwen3-8B"
+    },
+    "file": "operative_8b.json",
+    "sha256": "906b0301db169834ae3b0a9d5f1261e27c5a439066eb9eb84fdd654e731960fc"
+  },
+  "c17b_selfother_think_8b": {
+    "config": {
+      "K": 8,
+      "L": 24,
+      "Li": 18,
+      "jlens": "hf:qwen3-8b",
+      "jobs": [
+        {
+          "P": 30,
+          "exp": "selftag",
+          "run": [
+            "paradox_selfother_think"
+          ],
+          "source": "inputs/obs3_8b.json",
+          "tag": "selfother_think_8b"
+        }
+      ],
+      "max_minutes": 45,
+      "model": "Qwen/Qwen3-8B"
+    },
+    "file": "selfother_think_8b.json",
+    "sha256": "52a8c38d22c8e96fa43663fbcbe1418359f939281ea1be87d6bae587bc7107a7"
+  },
+  "c17c_operative2_8b": {
+    "config": {
+      "K": 8,
+      "L": 24,
+      "Li": 18,
+      "jlens": "hf:qwen3-8b",
+      "jobs": [
+        {
+          "P": 30,
+          "exp": "selftag",
+          "operative_conds": [
+            "real",
+            "real_rule"
+          ],
+          "operative_seed": 3,
+          "run": [
+            "paradox_operative"
+          ],
+          "source": "inputs/obs3_8b.json",
+          "tag": "operative2_8b"
+        }
+      ],
+      "max_minutes": 20,
+      "model": "Qwen/Qwen3-8B"
+    },
+    "file": "operative2_8b.json",
+    "sha256": "fffffbfc013f9e8bbd6c4a210aaf64aae36d9c611b4c13f63370c10dfc8fe66e"
+  },
+  "c17d_authorship_8b": {
+    "config": {
+      "K": 8,
+      "L": 24,
+      "Li": 18,
+      "jlens": "hf:qwen3-8b",
+      "jobs": [
+        {
+          "P": 30,
+          "exp": "selftag",
+          "operative_conds": [
+            "real",
+            "real_rule",
+            "real_rule_as_other",
+            "real_rule_neutral"
+          ],
+          "operative_seed": 4,
+          "run": [
+            "paradox_operative"
+          ],
+          "source": "inputs/obs3_8b.json",
+          "tag": "authorship_8b"
+        }
+      ],
+      "max_minutes": 20,
+      "model": "Qwen/Qwen3-8B"
+    },
+    "file": "authorship_8b.json",
+    "sha256": "a45b55f14e6dfd43f6c6bfd2b7200db591f2806dca12080837e34d41728c86f5"
+  },
+  "c18_paradox_14b": {
+    "config": {
+      "K": 8,
+      "L": 27,
+      "Li": 20,
+      "jlens": "hf:qwen3-14b",
+      "jobs": [
+        {
+          "P": 30,
+          "exp": "selftag",
+          "paradox_n": 10,
+          "run": [
+            "paradox_operative",
+            "told"
+          ],
+          "source": "inputs/obs3_14b.json",
+          "tag": "paradox_14b"
+        }
+      ],
+      "max_minutes": 60,
+      "model": "Qwen/Qwen3-14B"
+    },
+    "file": "paradox_14b.json",
+    "sha256": "d4d18bd41918e3f5a0c1d20ecb66f88b4aeb2c63f2c0a37d9d7c2b92d0d8ef04"
+  },
+  "d01_selfcorrect_8b_s5": {
+    "config": {
+      "K": 8,
+      "L": 24,
+      "Li": 18,
+      "jlens": "hf:qwen3-8b",
+      "jobs": [
+        {
+          "exp": "selftag",
+          "run": [
+            "selfcorrect"
+          ],
+          "sc_n": 12,
+          "sc_rounds": 40,
+          "sc_seed": 5,
+          "source": "inputs/obs3_8b.json",
+          "tag": "selfcorrect_8b_s5"
+        }
+      ],
+      "max_minutes": 70,
+      "model": "Qwen/Qwen3-8B"
+    },
+    "file": "selfcorrect_8b_s5.json",
+    "sha256": "0ce5029428b02aacc83818ca7cf15a4e1f86393b699695e751f2e987d07a973d"
+  },
+  "e01_selfcorrect_amp_8b": {
+    "config": {
+      "K": 8,
+      "L": 24,
+      "Li": 18,
+      "jlens": "hf:qwen3-8b",
+      "jobs": [
+        {
+          "exp": "selftag",
+          "run": [
+            "selfcorrect"
+          ],
+          "sc_change": "amplify",
+          "sc_n": 12,
+          "sc_rounds": 40,
+          "sc_seed": 5,
+          "source": "inputs/obs3_8b.json",
+          "tag": "selfcorrect_amp_8b"
+        }
+      ],
+      "max_minutes": 70,
+      "model": "Qwen/Qwen3-8B"
+    },
+    "file": "selfcorrect_amp_8b.json",
+    "sha256": "17c9b5b692cb5ccfb0563562ccc9447561e564267489855918fbed5a896e3704"
+  }
+}

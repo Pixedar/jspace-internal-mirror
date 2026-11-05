@@ -1,0 +1,21 @@
+{
+  "model": "Qwen/Qwen3-14B",
+  "jlens": "hf:qwen3-14b",
+  "L": 27,
+  "Li": 20,
+  "K": 8,
+  "max_minutes": 60,
+  "jobs": [
+    {
+      "exp": "selftag",
+      "source": "inputs/obs3_14b.json",
+      "P": 30,
+      "tag": "paradox_14b",
+      "paradox_n": 10,
+      "run": [
+        "paradox_operative",
+        "told"
+      ]
+    }
+  ]
+}

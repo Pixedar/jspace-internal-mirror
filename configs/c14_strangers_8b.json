@@ -1,0 +1,19 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "jlens": "hf:qwen3-8b",
+  "L": 24,
+  "Li": 18,
+  "K": 8,
+  "max_minutes": 60,
+  "jobs": [
+    {
+      "exp": "selftag",
+      "source": "inputs/obs3_8b.json",
+      "integrated_source": "inputs/integrated_8b.json",
+      "tag": "strangers_8b",
+      "run": [
+        "strangers"
+      ]
+    }
+  ]
+}

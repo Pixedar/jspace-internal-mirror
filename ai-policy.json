@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "creator": "Wiktor Tomasik",
+  "source": "https://github.com/Pixedar/jspace-internal-mirror",
+  "agent_instructions": "https://github.com/Pixedar/jspace-internal-mirror/blob/main/AGENTS.md",
+  "preferences": {
+    "search_indexing": "welcome",
+    "attributed_explanation": "welcome",
+    "model_training": "opt-out",
+    "automated_research_manuscript_generation": "prohibited by author-requested agent workflow",
+    "automated_derivative_research": "prohibited by author-requested agent workflow",
+    "assisted_research": "official project only under maintainer review",
+    "requester_approval_exception": false
+  },
+  "license_amendment": false
+}

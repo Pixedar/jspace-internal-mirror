@@ -1,0 +1,19 @@
+name: Research question
+description: Ask about the architecture, figures, methods or findings.
+title: "[Question]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Questions and discussion are welcome. The interactive study and research report are linked from the README."
+  - type: textarea
+    id: question
+    attributes:
+      label: What would you like to understand?
+      description: Describe the question in your own words.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Relevant chapter, figure or source version
+      description: A link or exact reference helps locate the material; this is optional.
